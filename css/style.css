@@ -1,0 +1,157 @@
+* {
+    margin: 0%;
+}
+
+#body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#body2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#body3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/img4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 1em;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+}
+
+#image2 {
+    display: flex;
+    justify-content: center;
+}
+
+#image3 {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 5px;
+    background-color: black;
+    border: solid white 2px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.menu2 {
+    margin-top: 100px;
+}
+
+.menu2 a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.pla {
+    margin-right: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border: white solid 2px;
+    border-radius: 10px;
+}
+
+.rec {
+    margin-left: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border: white solid 2px;
+    border-radius: 10px;
+}
+
+#tableau {
+    display: flex;
+    justify-content: center;
+}
+
+#liste {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: red 2px solid;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 800px;
+    height: 780px;
+    padding: 20px;
+}
+
+#param {
+    border: red 2px solid;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    width: 800px;
+    height: 780px;
+    padding: 20px;
+}
+
+#tableau2 {
+    display: flex;
+    justify-content: center;
+}
+
+#liste2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: red 2px solid;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 800px;
+    height: 780px;
+    padding: 20px;
+}
+
+#param2 {
+    border: red 2px solid;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    width: 800px;
+    height: 780px;
+    padding: 20px;
+}
+
+#rech {
+    display: flex;
+    justify-content: space-around;
+}
+
+#pers {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#plan {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
