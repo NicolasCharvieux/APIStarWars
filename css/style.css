@@ -29,19 +29,48 @@ h1 {
     padding: 1em;
 }
 
+h3 span {
+    color: red;
+    font-weight: 700;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
 #image {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 #image2 {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 #image3 {
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+#image img {
+    width: 400px;
+    height: 200px;
+}
+
+#image2 img {
+    width: 400px;
+    height: 200px;
+}
+
+#image3 img {
+    width: 400px;
+    height: 200px;
 }
 
 .menu {
@@ -57,7 +86,7 @@ h1 {
 }
 
 .menu2 {
-    margin-top: 100px;
+    display: flex;
 }
 
 .menu2 a {
@@ -139,7 +168,7 @@ h1 {
     padding: 20px;
 }
 
-#rech {
+#recherche {
     display: flex;
     justify-content: space-around;
 }
@@ -154,4 +183,136 @@ h1 {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     padding: 20px;
+}
+
+#tableau3 {
+    display: flex;
+    justify-content: center;
+}
+
+#param3 {
+    border: red 2px solid;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    width: 800px;
+    height: 780px;
+    padding: 20px;
+}
+
+@media (max-width: 750px) {
+    #image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #image2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #image3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #image img {
+        width: 200px;
+        height: 100px;
+    }
+    #image2 img {
+        width: 200px;
+        height: 100px;
+    }
+    #image3 img {
+        width: 200px;
+        height: 100px;
+    }
+    .pla {
+        margin-right: 20px;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        border: white solid 2px;
+        border-radius: 10px;
+    }
+    .rec {
+        margin-left: 20px;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        border: white solid 2px;
+        border-radius: 10px;
+    }
+    #tableau {
+        display: flex;
+        justify-content: center;
+    }
+    #liste {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: red 2px solid;
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        width: 50%;
+        height: 780px;
+        padding: 20px;
+    }
+    #param {
+        border: red 2px solid;
+        border-radius: 4px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.637);
+        color: white;
+        width: 50%;
+        height: 780px;
+        padding: 20px;
+    }
+    #tableau2 {
+        display: flex;
+        justify-content: center;
+    }
+    #liste2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: red 2px solid;
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        width: 50%;
+        height: 780px;
+        padding: 20px;
+    }
+    #param2 {
+        border: red 2px solid;
+        border-radius: 4px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.637);
+        color: white;
+        width: 50%;
+        height: 780px;
+        padding: 20px;
+    }
+    #tableau3 {
+        display: flex;
+        justify-content: center;
+    }
+    #param3 {
+        border: red 2px solid;
+        border-radius: 4px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.637);
+        color: white;
+        width: 50%;
+        height: 780px;
+        padding: 20px;
+    }
+    h3 {
+        text-align: center;
+        color: white;
+        text-decoration: underline;
+        padding: 2em;
+    }
 }
